@@ -11,6 +11,8 @@ import { TwoWayDataBindingComponent } from './two-way-data-binding/two-way-data-
 import { FormsModule } from '@angular/forms';
 import { ListsRenderComponent } from './lists-render/lists-render.component';
 import { CustomComponentComponent } from './custom-component/custom-component.component';
+import { FatherComponentComponent } from './father-component/father-component.component';
+import { ChildComponentComponent } from './child-component/child-component.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +24,8 @@ import { CustomComponentComponent } from './custom-component/custom-component.co
     TwoWayDataBindingComponent,
     ListsRenderComponent,
     CustomComponentComponent,
+    FatherComponentComponent,
+    ChildComponentComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, FormsModule],
   providers: [],
