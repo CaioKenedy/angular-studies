@@ -8,10 +8,18 @@ import { SecondComponentComponent } from './second-component/second-component.co
 import { FolderForPipe } from './folder-for.pipe';
 import { PipeCustomComponent } from './pipe-custom/pipe-custom.component';
 import { TwoWayDataBindingComponent } from './two-way-data-binding/two-way-data-binding.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
-  declarations: [AppComponent, FirstComponentComponent, SecondComponentComponent, FolderForPipe, PipeCustomComponent, TwoWayDataBindingComponent],
-  imports: [BrowserModule, AppRoutingModule],
+  declarations: [
+    AppComponent,
+    FirstComponentComponent,
+    SecondComponentComponent,
+    FolderForPipe,
+    PipeCustomComponent,
+    TwoWayDataBindingComponent,
+  ],
+  imports: [BrowserModule, AppRoutingModule, FormsModule],
   providers: [],
   bootstrap: [AppComponent],
 })
