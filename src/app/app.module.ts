@@ -10,6 +10,7 @@ import { PipeCustomComponent } from './pipe-custom/pipe-custom.component';
 import { TwoWayDataBindingComponent } from './two-way-data-binding/two-way-data-binding.component';
 import { FormsModule } from '@angular/forms';
 import { ListsRenderComponent } from './lists-render/lists-render.component';
+import { CustomComponentComponent } from './custom-component/custom-component.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { ListsRenderComponent } from './lists-render/lists-render.component';
     PipeCustomComponent,
     TwoWayDataBindingComponent,
     ListsRenderComponent,
+    CustomComponentComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, FormsModule],
   providers: [],
