@@ -1,1 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+
+button {
+  padding: 10px;
+  background-color: plum;
+  color: blueviolet;
+  border: 1px blueviolet;
+  border-radius: 4px;
+  transition: filter 0.3s ease-in-out;
+  display: block;
+  margin: 10px 0px;
+}
+
+button:hover {
+  filter: brightness(1.4);
+}

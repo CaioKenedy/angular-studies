@@ -7,9 +7,10 @@ import { FirstComponentComponent } from './first-component/first-component.compo
 import { SecondComponentComponent } from './second-component/second-component.component';
 import { FolderForPipe } from './folder-for.pipe';
 import { PipeCustomComponent } from './pipe-custom/pipe-custom.component';
+import { TwoWayDataBindingComponent } from './two-way-data-binding/two-way-data-binding.component';
 
 @NgModule({
-  declarations: [AppComponent, FirstComponentComponent, SecondComponentComponent, FolderForPipe, PipeCustomComponent],
+  declarations: [AppComponent, FirstComponentComponent, SecondComponentComponent, FolderForPipe, PipeCustomComponent, TwoWayDataBindingComponent],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
   bootstrap: [AppComponent],

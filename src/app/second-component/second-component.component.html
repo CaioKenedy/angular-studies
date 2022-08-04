@@ -1,3 +1,5 @@
 <h2>Aprofundando os conhecimentos em angular</h2>
+<img [src]="urlImage" width="300">
 <p>{{ name | uppercase }}</p>
 <p>Data Nascimento: {{ birthDate | date:"dd/MM/yyyy" }}</p>
+<button (click)="showBirthDate()" type="button">Mostrar data de nascimento</button>

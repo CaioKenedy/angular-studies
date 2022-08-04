@@ -8,4 +8,9 @@ import { Component, OnInit } from '@angular/core';
 export class SecondComponentComponent {
   name = 'Caio';
   birthDate = '1996-03-27';
+  urlImage = '/assets/caio.jpeg';
+
+  showBirthDate() {
+    alert(`A data de nascimento do Caio é: ${this.birthDate}`);
+  }
 }
