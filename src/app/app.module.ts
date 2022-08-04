@@ -13,6 +13,8 @@ import { ListsRenderComponent } from './lists-render/lists-render.component';
 import { CustomComponentComponent } from './custom-component/custom-component.component';
 import { FatherComponentComponent } from './father-component/father-component.component';
 import { ChildComponentComponent } from './child-component/child-component.component';
+import { Service1ExampleComponent } from './service1-example/service1-example.component';
+import { Service2ExampleComponent } from './service2-example/service2-example.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +28,8 @@ import { ChildComponentComponent } from './child-component/child-component.compo
     CustomComponentComponent,
     FatherComponentComponent,
     ChildComponentComponent,
+    Service1ExampleComponent,
+    Service2ExampleComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, FormsModule],
   providers: [],
