@@ -17,6 +17,7 @@ import { Service1ExampleComponent } from './service1-example/service1-example.co
 import { Service2ExampleComponent } from './service2-example/service2-example.component';
 import { LifeCycleComponent } from './life-cycle/life-cycle.component';
 import { FatherLifeCycleComponent } from './father-life-cycle/father-life-cycle.component';
+import { CardComponent } from './card/card.component';
 
 @NgModule({
   declarations: [
@@ -34,6 +35,7 @@ import { FatherLifeCycleComponent } from './father-life-cycle/father-life-cycle.
     Service2ExampleComponent,
     LifeCycleComponent,
     FatherLifeCycleComponent,
+    CardComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, FormsModule],
   providers: [],
